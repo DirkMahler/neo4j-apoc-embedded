@@ -27,14 +27,14 @@
                             <goal>copy</goal>
                         </goals>
                         <configuration>
+                            <outputDirectory>target/neo4j/plugins</outputDirectory>
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>org.neo4j.procedure</groupId>
                                     <artifactId>apoc-core</artifactId>
                                     <version>5.16.1</version>
-                                    <type>jar</type>
                                     <classifier>core</classifier>
-                                    <outputDirectory>target/neo4j/plugins</outputDirectory>
+                                    <type>jar</type>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
@@ -63,6 +63,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
         </dependency>
     </dependencies>
 </project>
