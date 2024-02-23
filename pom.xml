@@ -50,14 +50,6 @@
             <artifactId>neo4j</artifactId>
             <version>5.16.0</version>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>org.neo4j.procedure</groupId>
-            <artifactId>apoc-core</artifactId>
-            <classifier>core</classifier>
-            <version>5.16.1</version>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
